@@ -1,6 +1,6 @@
 //
-//  encryptApp.swift
-//  encrypt
+//  TurbidApp.swift
+//  Turbid
 //
 //  Created by Jayen Agrawal on 5/6/24.
 //
@@ -12,7 +12,7 @@ enum AppState {
 }
 
 @main
-struct encryptApp: App {
+struct TurbidApp: App {
     @StateObject public var controller: EncryptionController = EncryptionController()
     
     var body: some Scene {

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F50C46DC2BE965A60085EB33 /* encryptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C46DB2BE965A60085EB33 /* encryptApp.swift */; };
+		F50C46DC2BE965A60085EB33 /* TurbidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C46DB2BE965A60085EB33 /* TurbidApp.swift */; };
 		F50C46DE2BE965A60085EB33 /* FileInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C46DD2BE965A60085EB33 /* FileInput.swift */; };
 		F50C46E02BE965A70085EB33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50C46DF2BE965A70085EB33 /* Assets.xcassets */; };
 		F50C46E32BE965A70085EB33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50C46E22BE965A70085EB33 /* Preview Assets.xcassets */; };
@@ -18,8 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F50C46D82BE965A60085EB33 /* encrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = encrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F50C46DB2BE965A60085EB33 /* encryptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = encryptApp.swift; sourceTree = "<group>"; };
+		F50C46D82BE965A60085EB33 /* Turbid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turbid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50C46DB2BE965A60085EB33 /* TurbidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurbidApp.swift; sourceTree = "<group>"; };
 		F50C46DD2BE965A60085EB33 /* FileInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInput.swift; sourceTree = "<group>"; };
 		F50C46DF2BE965A70085EB33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F50C46E22BE965A70085EB33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -27,7 +27,7 @@
 		F5A1ADC22BE969B3001F55E9 /* TaskEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEnd.swift; sourceTree = "<group>"; };
 		F5A1ADC42BE96A39001F55E9 /* EncryptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionController.swift; sourceTree = "<group>"; };
 		F5A714302BE9AA15002E8AF3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5A714322BE9B357002E8AF3 /* encrypt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = encrypt.entitlements; sourceTree = "<group>"; };
+		F5A714322BE9B357002E8AF3 /* Turbid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Turbid.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 		F50C46CF2BE965A60085EB33 = {
 			isa = PBXGroup;
 			children = (
-				F50C46DA2BE965A60085EB33 /* encrypt */,
+				F50C46DA2BE965A60085EB33 /* Turbid */,
 				F50C46D92BE965A60085EB33 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,25 +52,25 @@
 		F50C46D92BE965A60085EB33 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F50C46D82BE965A60085EB33 /* encrypt.app */,
+				F50C46D82BE965A60085EB33 /* Turbid.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F50C46DA2BE965A60085EB33 /* encrypt */ = {
+		F50C46DA2BE965A60085EB33 /* Turbid */ = {
 			isa = PBXGroup;
 			children = (
-				F50C46DB2BE965A60085EB33 /* encryptApp.swift */,
+				F50C46DB2BE965A60085EB33 /* TurbidApp.swift */,
 				F50C46DD2BE965A60085EB33 /* FileInput.swift */,
 				F5A1ADC02BE96979001F55E9 /* TaskConfigure.swift */,
 				F5A1ADC22BE969B3001F55E9 /* TaskEnd.swift */,
 				F5A1ADC42BE96A39001F55E9 /* EncryptionController.swift */,
 				F50C46DF2BE965A70085EB33 /* Assets.xcassets */,
-				F5A714322BE9B357002E8AF3 /* encrypt.entitlements */,
+				F5A714322BE9B357002E8AF3 /* Turbid.entitlements */,
 				F5A714302BE9AA15002E8AF3 /* Info.plist */,
 				F50C46E12BE965A70085EB33 /* Preview Content */,
 			);
-			path = encrypt;
+			path = Turbid;
 			sourceTree = "<group>";
 		};
 		F50C46E12BE965A70085EB33 /* Preview Content */ = {
@@ -84,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F50C46D72BE965A60085EB33 /* encrypt */ = {
+		F50C46D72BE965A60085EB33 /* Turbid */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F50C46E72BE965A70085EB33 /* Build configuration list for PBXNativeTarget "encrypt" */;
+			buildConfigurationList = F50C46E72BE965A70085EB33 /* Build configuration list for PBXNativeTarget "Turbid" */;
 			buildPhases = (
 				F50C46D42BE965A60085EB33 /* Sources */,
 				F50C46D52BE965A60085EB33 /* Frameworks */,
@@ -96,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = encrypt;
+			name = Turbid;
 			productName = encrypt;
-			productReference = F50C46D82BE965A60085EB33 /* encrypt.app */;
+			productReference = F50C46D82BE965A60085EB33 /* Turbid.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F50C46D32BE965A60085EB33 /* Build configuration list for PBXProject "encrypt" */;
+			buildConfigurationList = F50C46D32BE965A60085EB33 /* Build configuration list for PBXProject "Turbid" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F50C46D72BE965A60085EB33 /* encrypt */,
+				F50C46D72BE965A60085EB33 /* Turbid */,
 			);
 		};
 /* End PBXProject section */
@@ -156,7 +156,7 @@
 				F5A1ADC52BE96A39001F55E9 /* EncryptionController.swift in Sources */,
 				F5A1ADC12BE96979001F55E9 /* TaskConfigure.swift in Sources */,
 				F5A1ADC32BE969B3001F55E9 /* TaskEnd.swift in Sources */,
-				F50C46DC2BE965A60085EB33 /* encryptApp.swift in Sources */,
+				F50C46DC2BE965A60085EB33 /* TurbidApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,16 +286,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = encrypt/encrypt.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Turbid/Turbid.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"encrypt/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Turbid/Preview\\ Content";
 				DEVELOPMENT_TEAM = D6MFYYVHA8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = encrypt/Info.plist;
+				INFOPLIST_FILE = Turbid/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Turbid;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -317,16 +317,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = encrypt/encrypt.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Turbid/Turbid.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"encrypt/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Turbid/Preview\\ Content";
 				DEVELOPMENT_TEAM = D6MFYYVHA8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = encrypt/Info.plist;
+				INFOPLIST_FILE = Turbid/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Turbid;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -346,7 +346,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F50C46D32BE965A60085EB33 /* Build configuration list for PBXProject "encrypt" */ = {
+		F50C46D32BE965A60085EB33 /* Build configuration list for PBXProject "Turbid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F50C46E52BE965A70085EB33 /* Debug */,
@@ -355,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F50C46E72BE965A70085EB33 /* Build configuration list for PBXNativeTarget "encrypt" */ = {
+		F50C46E72BE965A70085EB33 /* Build configuration list for PBXNativeTarget "Turbid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F50C46E82BE965A70085EB33 /* Debug */,
